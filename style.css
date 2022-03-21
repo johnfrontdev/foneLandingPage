@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+
+}
+
+header {
+
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.logo img{
+    width: 80px;
+    
+}
+.botoes-header {
+    display: flex;
+    
+
+}
+
+.botoes-header i {
+    margin-right: 25px;
+    font-size: 25px;
+    color: #555555;
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.menu li a:hover {
+    color: #792121;
+}
+.menu li {
+    display: inline;
+    margin-right: 20px;
+
+
+}
+.containerr {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.imagem {
+    height: auto;
+    width: 500px;
+    margin-right: 8%;
+}
+
+.info {
+    width: 600px;
+}
+
+.titulo {
+    color: #ca3b3a;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-size: 3.64em;
+
+}
+
+.descricao {
+    font-size: 20px;
+    padding: 10px 0;
+    
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.btnn {
+    margin-left: 60px;
+    padding: 10px 17px;
+    border: none;
+    background-color: #ca3b3a;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition: 1s;
+}
+
+.btnn:hover {
+    color: black;
+    background-color: #f06e6e;
+}
+
+.unidade {
+    padding: 10px 0;
+}
+
+.frequencia {
+    padding: 10px 0;
+}
+
+.stars {
+    display: flex;
+    padding: 15px 0;
+    color: #ca3b3a;
+    font-size: 18px;
+}
+
+.reviews {
+    margin-left: 20px;
+}
+
+.funcionalidades {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(243, 243, 216);
+    padding: 40px;
+    margin: 0 10% 0 10%;
+    width: 80%;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+.funcionalidades2 {
+    visibility: hidden;
+}
+
+.navbar-brand {
+    color: red !important;
+    margin-left: 20px !important;
+    font-weight: 800;
+    font-size: 25px !important;
+}
+
+.navbar-nav {
+    margin-left: 40%;
+}
+
+
+
+@media screen and (max-width : 700px) {
+    
+    
+    
+    .containerr {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       padding: 45px;
+     }
+
+     .info {
+         width: 100%;
+     }
+
+
+    
+     .imagem {
+         display: block;
+         max-width: 600px;
+         width: 100%;
+         padding: 30px;
+         margin-left: 25px;
+
+     }
+
+     .responsiveText {
+         font-size: 30px;
+         text-align: left;
+
+     }
+
+     .descricao{
+         text-align: left;
+     }
+
+     .info {
+         text-align: left;
+     }
+
+     .btn {
+         margin: 17px;
+     }
+
+     .funcionalidades {
+         visibility: hidden;
+     }
+
+     .funcionalidades2 {
+         visibility: visible;
+         height: 200px;
+         background-color: #eee9bd;
+         padding-top: 35px;
+         width: 100%;
+         text-align: center;
+         font-size: 18px;
+     }
+     .funcionalidades2 p {
+         margin-bottom: 25px;
+         text-align: center;
+     }
+
+     .boxFuncionalidades2 {
+
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+
+   
+     
+
+   
+     
+
+     }
